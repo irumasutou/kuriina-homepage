@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: auto;
+  height: 100%;
+  background-color: rgb(52, 66, 104);
+}
+
+.container {
+  max-width: 500px;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.kuriina-profile {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.kuriina-profile img {
+  margin-top: 25px;
+  width: 150px;
+  height: 150px;
+  border: 3px solid rgb(141, 158, 255);
+  border-radius: 100%;
+}
+
+.kuriina-profile h1 {
+  margin-top: 10px;
+  font-size: xx-large;
+  text-align: center;
+  color: rgb(63, 59, 108);
+  box-shadow: 1px rgb(255, 255, 255);
+  font-family: "Roboto", sans-serif;
+}
+
+.kuriina-profile p {
+  font-size: large;
+  text-align: center;
+  color: rgb(63, 59, 108);
+  font-family: "Roboto", sans-serif;
+}
+
+.kuriina-link {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.kuriina-link a {
+  margin-top: 10px;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  font-size: large;
+  font-weight: 300;
+  padding: 10px;
+  font-family: "Roboto", sans-serif;
+}
+
+.btn-donate {
+  border: 2px rgb(250, 47, 181) solid;
+  background-color: rgba(255, 255, 255, 0);
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: small;
+  padding: 2px;
+}
+
+.btn-riin {
+  color: rgb(255, 255, 255);
+  background-color: rgb(52, 66, 104);
+  border-bottom: 3px rgb(141, 158, 255) solid;
+  border-right: 3px rgb(141, 158, 255) solid;
+  /* border: 2px rgb(52, 66, 104) solid; */
+}
+
+.btn-riin:hover {
+  color: rgb(141, 232, 255);
+  border-bottom: 3px rgb(141, 232, 255) solid;
+  border-right: 3px rgb(141, 232, 255) solid;
+  /* border: 2px rgb(141, 158, 255) solid; */
+}
